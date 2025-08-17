@@ -1,4 +1,4 @@
-/*h1,
+h1,
 h2,
 h3,
 h4,
@@ -19,14 +19,14 @@ ul {
 .ul {
   list-style: none;
    display: flex;
-  gap: 40px; */
+  gap: 40px; }
  /* width: 1440xp;
   list-style: none;
   display:flex;
   justify-content: space-between;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;*/
+  padding: 0 15px;
 
 img {
   display: block;
@@ -47,7 +47,7 @@ img {
 .ul.portfolio li {
   width: calc((100% - 48px) / 3);
   border-bottom: 1px solid #e7e9fc; /* B17 */
-}
+
 
 /* Sections */
 .section {
@@ -126,8 +126,20 @@ img {
 }
 /* Effective Solutions for Your Business */
 
+.container-solution{
+display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали */
+  height: 10vh;           /* висота на весь екран */
+  margin: 0;   
+}
+
 .section-effective-solutions{
-  background-color: #2e2f42 
+  background-color: #2e2f42;
+  
+  height: 600px;  
+  
+
 }
 
 .main-effective-solutions{
@@ -136,9 +148,16 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    }
+.container
+  
+
+.ontainer-solution{
+  height: 600px;
+}
 
     /* кнопка */
-}
+
 .main-button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -148,7 +167,13 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-}
+    border: none;
+   
+    border-radius: 4px;
+    width: 169px; 
+    height: 56px;   
+  }
+
 .main-button:hover,
 .main-button:focus{
 background-color: #404BBF;
@@ -172,7 +197,10 @@ background-color: #404BBF;
 /* тимейты в кс */
 .sect-our-team{
 background-color: #F4F4FD
+/*wedth: 1440px;
+height: 732px;*/
 }
+
 .our-team{
   font-size: 36px;
   line-height: 1.11;
@@ -180,10 +208,12 @@ background-color: #F4F4FD
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  
 }
 
 .image{
     background-color: #FFFFFF;
+    
     
 }
 .names{
@@ -192,6 +222,7 @@ background-color: #F4F4FD
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 /* портфолиоо */
 .our-portfolio{
@@ -226,4 +257,3 @@ background-color: #F4F4FD
       letter-spacing: 0.02em;
      
     }
-
