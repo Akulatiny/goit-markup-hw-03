@@ -1,0 +1,229 @@
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  
+}
+.a {
+  text-decoration: none;
+}
+.ul {
+  list-style: none;
+   display: flex;
+  gap: 40px; */
+ /* width: 1440xp;
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;*/
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.ul.portfolio {
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.ul.portfolio li {
+  width: calc((100% - 48px) / 3);
+  border-bottom: 1px solid #e7e9fc; /* B17 */
+}
+
+/* Sections */
+.section {
+  padding: 120px 0;
+}
+
+/* Visually hidden (B16) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+
+.a{
+  font-family: "Raleway", sans-serif;
+}
+/* ЛОГО */
+.web-text{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.web-accent {
+  color: #2e2f42;
+}
+
+/* нав */
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+
+
+/* контакти */
+.address-info {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+/* Effective Solutions for Your Business */
+
+.section-effective-solutions{
+  background-color: #2e2f42 
+}
+
+.main-effective-solutions{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+    /* кнопка */
+}
+.main-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.main-button:hover,
+.main-button:focus{
+background-color: #404BBF;
+}
+
+/* качества */
+
+.quality-tittle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42;
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* тимейты в кс */
+.sect-our-team{
+background-color: #F4F4FD
+}
+.our-team{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.image{
+    background-color: #FFFFFF;
+    
+}
+.names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/* портфолиоо */
+.our-portfolio{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.h-list-portfolio{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+    /*ФУУУтерок*/
+    .footer{
+      background-color:#2e2f42
+      
+     }
+    .web-accent-w{
+      color: #f4f4fd;
+    }
+    .p-in-footer{
+      line-height: 1.5;
+      color:  #F4F4FD;
+      letter-spacing: 0.02em;
+     
+    }
+
