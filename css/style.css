@@ -213,13 +213,13 @@ height: 732px;*/
      }
     .web-accent-w{
       color: #f4f4fd;
+       display: inline-block;
+       margin-bottom: 16px;
       
     }
     .p-in-footer{
       line-height: 1.5;
       color:  #F4F4FD;
       letter-spacing: 0.02em;
-      display: inline-block;
-       margin-bottom: 16px;
     
     }
