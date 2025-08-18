@@ -5,24 +5,35 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+a  {
   margin: 0;
   padding: 0;
- 
+  list-style:none;
+    text-decoration: none;
+}
+.container-nav{
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
 }
 
-.container{
-  
-}
-a {
-  text-decoration: none;
- 
-}
 
-.ul {
+.ull {
   list-style: none;
    display: flex;
   gap: 40px; 
+/* gap: 24px;
+  width: calc((100% - 72px) / 4);
+margin-bottom: 8px;*/
+
+}
+.nav-inf{
+  
+}
+.contacts-itam{
+  display:flex;
+      gap:40px;
 }
  
 
@@ -31,6 +42,14 @@ a {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
+}
+header{
+  border-bottom: 1px solid #e7e9fc
+
+}
+.nav-main{
+  display: flex;         /* логотип + меню в ряд */
+  align-items: center;   /* по центру */
 }
 
 .a{
@@ -85,7 +104,7 @@ a {
 }
 /* Effective Solutions for Your Business */
 
-.container-solution{
+.container-button{
 display: flex;
   justify-content: center; /* по горизонтали */
   align-items: center;     /* по вертикали */
@@ -106,7 +125,6 @@ display: flex;
     letter-spacing: 0.02em;
     color: #ffffff;
     }
-.container
   
 
 .ontainer-solution{
@@ -137,6 +155,9 @@ background-color: #404BBF;
 }
 
 /* качества */
+.quality{
+   padding: 120px 0;
+}
 
 .quality-tittle{
     font-weight: 500;
@@ -144,6 +165,7 @@ background-color: #404BBF;
     line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+    
 }
 .paragraph{
     font-size: 16px;
@@ -202,9 +224,8 @@ height: 732px;*/
 
     /*ФУУУтерок*/
 
-    .container-foot{
-      
-    }
+    /*.container-foot{}*/
+
     .footer{
       background-color:#2e2f42;
       height: 312px; 
@@ -213,8 +234,7 @@ height: 732px;*/
      }
     .web-accent-w{
       color: #f4f4fd;
-       display: inline-block;
-       margin-bottom: 16px;
+    
       
     }
     .p-in-footer{
