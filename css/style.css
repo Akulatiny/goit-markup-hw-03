@@ -65,9 +65,57 @@ a  {
  
 }
 .nav-address-ul{
- display: flex;
+  display: flex;
   gap: 40px;
 }
+/**-------------------------*/
+
+/* первая секцияояояоя*/
+.main-section{
+  padding: 188px 0;
+
+}
+.main-section-div-container{
+
+}
+.main-section-div-h{
+max-width: 496px;
+}
+.main-section-div-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  display: block;
+  width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color:#4d5ae5;
+}
+.main-section-div-button:hover,
+.main-section-div-button:focus{
+  background-color: #404BBF;
+}
+/*============================*/
+
+/* втораяя йоу секшин*/
+.body-a-section{
+padding: 120px 0;
+}
+.body-a-section-div{
+  
+}
+
+
+
+
+
+
+
+
 
 
 .container-nav{
@@ -205,26 +253,7 @@ display: flex;
 
     /* кнопка */
 
-.main-button{
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    border: none;
-   
-    border-radius: 4px;
-    width: 169px; 
-    height: 56px;   
-  }
 
-.main-button:hover,
-.main-button:focus{
-background-color: #404BBF;
-}
 
 /* качества */
 .quality{
