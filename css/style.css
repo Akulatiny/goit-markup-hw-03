@@ -5,38 +5,36 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul,
+a  {
   margin: 0;
   padding: 0;
- 
+  list-style:none;
+    text-decoration: none;
 }
 
+
+
+
+ /* ГОЛОВОО виз НАВВВВ ВИГЕЙШИНС*/
+.header-header{
+  border-bottom: 1px solid #e7e9fc
+}
+.header-div-container{
+  display: flex;
+
+}
 .container{
-  
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px 0 15px
 }
-a {
-  text-decoration: none;
- 
-}
-
-.ul {
-  list-style: none;
-   display: flex;
-  gap: 40px; 
-}
- 
-
-
-.body{
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFFFFF;
+.header-div-nav{
+  display: flex;
+  align-items: center;
 }
 
-.a{
-  font-family: "Raleway", sans-serif;
-}
-/* ЛОГО */
+/* голова и в нем супєр лого */
 .web-text{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,14 +48,95 @@ a {
 .web-accent {
   color: #2e2f42;
 }
+.probel{
+  margin-right: 76px;
+}
+
+/* голова и нав по страничке*/
+.header-div-nav-ul{
+  display: flex; 
+  gap: 40px;
+}
+.nav-ul-a{
+  padding: 24px 0 24px;
+}
+/* голова в котором адресут */
+.header-div-nav-address{
+  display: flex;
+  gap: 40px;
+}
+
+
+.container-nav{
+  display: flex;
+    justify-content: space-between;
+  align-items: center;
+}
+
+
+.ull {
+  list-style: none;
+   display: flex;
+  gap: 40px; 
+/* gap: 24px;
+  width: calc((100% - 72px) / 4);
+margin-bottom: 8px;*/
+
+}
+.nav-inf{
+  
+}
+.contacts-itam{
+  display:flex;
+      gap:40px;
+}
+ 
+
+
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
+}
+header{
+  border-bottom: 1px solid #e7e9fc
+
+}
+.nav-main{
+  display: flex;         /* логотип + меню в ряд */
+  align-items: center;   /* по центру */
+}
+
+.a{
+  font-family: "Raleway", sans-serif;
+}
+/* ЛОГО */
+/*.web-text{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.web-accent {
+  color: #2e2f42;
+}*/
 
 /* нав */
+.nav-inf{
+  display:flex;
+  align-items:center;
+}
 .nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+ 
+   padding:24px 0;
+  font-weight:500;
+  line-height:1.5;
+  letter-spacing:0.02em;
+  color:#2e2f42;
 }
 
 .nav-link:hover,
@@ -83,9 +162,18 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
+
+
+
+
+
+
+
+
+
 /* Effective Solutions for Your Business */
 
-.container-solution{
+.container-button{
 display: flex;
   justify-content: center; /* по горизонтали */
   align-items: center;     /* по вертикали */
@@ -106,7 +194,6 @@ display: flex;
     letter-spacing: 0.02em;
     color: #ffffff;
     }
-.container
   
 
 .ontainer-solution{
@@ -137,6 +224,9 @@ background-color: #404BBF;
 }
 
 /* качества */
+.quality{
+   padding: 120px 0;
+}
 
 .quality-tittle{
     font-weight: 500;
@@ -144,6 +234,7 @@ background-color: #404BBF;
     line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42;
+    
 }
 .paragraph{
     font-size: 16px;
@@ -202,17 +293,17 @@ height: 732px;*/
 
     /*ФУУУтерок*/
 
-    .container-foot{
-      
-    }
+    /*.container-foot{}*/
+
     .footer{
       background-color:#2e2f42;
       height: 312px; 
-      
+      padding: 100px 0
       
      }
     .web-accent-w{
       color: #f4f4fd;
+    
       
     }
     .p-in-footer{
