@@ -26,7 +26,7 @@ a  {
 }
 .container{
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px 0 15px
 }
 .header-div-nav{
@@ -62,7 +62,10 @@ a  {
 }
 /* голова в котором адресут */
 .header-div-nav-address{
-  display: flex;
+ 
+}
+.nav-address-ul{
+ display: flex;
   gap: 40px;
 }
 
