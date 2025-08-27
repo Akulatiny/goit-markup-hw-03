@@ -172,10 +172,24 @@ padding-bottom: 120px;
 }
 .e-section-div-our-portfolio{
   margin-bottom: 72px;
-
 }
-.e-h-list-portfolio{
-  
+.e-div-ul{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.e-ul-li-img{
+  width: calc((100% - 48px) / 3);
+}
+.e-ul-li-img-container{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+}
+.e-ul-li-h-list-portfolio{
+
 }
 
 
