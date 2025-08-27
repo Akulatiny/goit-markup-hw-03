@@ -34,7 +34,7 @@ a  {
   align-items: center;
 }
 
-/* голова и в нем супєр лого */
+/* голова и в нем супєр лого A*/
 .web-text{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -52,7 +52,7 @@ a  {
   margin-right: 76px;
 }
 
-/* голова и нав по страничке*/
+/* голова и нав по страничке A*/
 .header-div-nav-ul{
   display: flex; 
   gap: 40px;
@@ -60,7 +60,7 @@ a  {
 .nav-ul-a{
   padding: 24px 0 24px;
 }
-/* голова в котором адресут */
+/* голова в котором адресут первая A */
 .header-div-nav-address{
  
 }
@@ -70,7 +70,7 @@ a  {
 }
 /**-------------------------*/
 
-/* первая секцияояояоя*/
+/* вторая секцияояояоя B*/
 .main-section{
   padding: 188px 0;
 
@@ -102,7 +102,7 @@ max-width: 496px;
 }
 /*============================*/
 
-/* втораяя йоу секшин*/
+/* третияяя йоу секшин C */
 .body-c-section{
 padding: 120px 0;
 }
@@ -110,18 +110,25 @@ padding: 120px 0;
   
 }
 .hide-hide{
-
+margin-bottom: 72px;
 }
 .c-section-div-ul{
   display: flex;
   gap: 24px;
 }
+.c-ul-li-container{
+padding: 32px 0;
+}
 .c-ul-tittle{
+  text-align: center;
   margin-bottom: 8px;
+}
+.c-ul-li-paragraph{
+  text-align: center;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
-/* третья жоска секция*/
+/* четвертая жоска секция D */
 .body-d-section{
 padding: 120px 0 120px;
 }
@@ -162,7 +169,7 @@ margin-bottom: 72px;
 }
 /*_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_*/
 
-/* четвертая */
+/* пятая E */
 .body-e-section{
 padding-top: 120px;
 padding-bottom: 120px;
@@ -191,7 +198,7 @@ margin-bottom: 8px;
 .e-ul-li-h-list-portfolio{
 
 }
-
+/* F */
 
 
 
