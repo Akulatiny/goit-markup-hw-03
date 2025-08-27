@@ -91,6 +91,7 @@ max-width: 496px;
   height: 56px;
   border: none;
   border-radius: 4px;
+  min-width: 169px;
   cursor: pointer;
   color: #ffffff;
   background-color:#4d5ae5;
@@ -102,12 +103,83 @@ max-width: 496px;
 /*============================*/
 
 /* втораяя йоу секшин*/
-.body-a-section{
+.body-c-section{
 padding: 120px 0;
 }
-.body-a-section-div{
+.body-c-section-div-container{
   
 }
+.hide-hide{
+
+}
+.c-section-div-ul{
+  display: flex;
+  gap: 24px;
+}
+.c-ul-tittle{
+  margin-bottom: 8px;
+}
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+/* третья жоска секция*/
+.body-d-section{
+padding: 120px 0 120px;
+}
+.body-d-section-div-container{
+
+}
+.d-section-div-container-our-team{
+margin-bottom: 72px;
+}
+.d-section-div-container-ul{
+  display: flex;
+  gap: 24px;
+}
+.our-team{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  
+}
+.d-ul-li{
+  padding: 32px 0;
+}
+.image-d{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.names{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+/*_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_*/
+
+/* четвертая */
+.body-e-section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.body-e-section-div-container{
+
+}
+.e-section-div-our-portfolio{
+  margin-bottom: 72px;
+
+}
+.e-h-list-portfolio{
+  
+}
+
+
+
 
 
 
