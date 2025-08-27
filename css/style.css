@@ -102,7 +102,7 @@ max-width: 496px;
 }
 /*============================*/
 
-/* третияяя йоу секшин C */
+/* третияяя йоу секшин C *//*
 .body-c-section{
 padding: 120px 0;
 }
@@ -132,8 +132,46 @@ padding: 32px 0;
 .c-ul-li-paragraph{
   text-align: center;
   color: #434455;
-}
+}*/
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+
+.team-section {
+  padding: 120px 0;
+}
+
+.team-title {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff; /* щоб картка виділялась */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* необов’язково */
+}
+
+.team-card {
+  padding: 32px 0;
+}
+
+.team-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-position {
+  text-align: center;
+  color: #434455;
+}
+
+
 
 /* четвертая жоска секция D */
 .body-d-section{
