@@ -111,10 +111,16 @@ padding: 120px 0;
 }
 .hide-hide{
 margin-bottom: 72px;
+text-align: center;
 }
 .c-section-div-ul{
   display: flex;
   gap: 24px;
+}
+.c-div-ul-li{
+   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff; 
 }
 .c-ul-li-container{
 padding: 32px 0;
@@ -125,6 +131,7 @@ padding: 32px 0;
 }
 .c-ul-li-paragraph{
   text-align: center;
+  color: #434455;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
