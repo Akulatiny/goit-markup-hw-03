@@ -10,25 +10,29 @@ a  {
   margin: 0;
   padding: 0;
   list-style:none;
-    text-decoration: none;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
+body{
+  font-family: "Roboto", sans-serif;
+}
 
 
 
  /* ГОЛОВОО виз НАВВВВ ВИГЕЙШИНС*/
 .header-header{
-  border-bottom: 1px solid #e7e9fc
 }
 .header-div-container{
-  display: flex;
-
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 .container{
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px
-}
+}*/
 .header-div-nav{
   display: flex;
   align-items: center;
@@ -75,13 +79,19 @@ a  {
 /* вторая секцияояояоя B*/
 .main-section{
   padding: 188px 0;
-
+  background: #2e2f42;
+  color: #fff;
 }
 .main-section-div-container{
 
 }
 .main-section-div-h{
-max-width: 496px;
+  max-width:550px;
+  margin:0 auto 48px;
+  text-align:center;
+  font-size:56px;
+  line-height:1.07;
+  letter-spacing:0.02em;
 }
 .main-section-div-button{
   font-family: "Roboto", sans-serif;
@@ -92,6 +102,7 @@ max-width: 496px;
   width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
   border-radius: 4px;
   min-width: 169px;
   cursor: pointer;
@@ -106,67 +117,82 @@ max-width: 496px;
 
 /* третияяя йоу секшин C */
 .body-c-section{
-padding: 120px 0;
+  padding: 120px 0;
 }
 .body-c-section-div-container{
   
 }
 .visually-hidden{
-margin-bottom: 72px;
-text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 72px;
+  text-align: center;
 }
 .c-section-div-ul{
-display: flex;
-gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 .c-div-ul-li{
-width: calc((100% - 72px) / 4);
-margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 .c-ul-li-container{
-padding: 32px 0;
+  padding: 32px 0;
 }
 .c-ul-tittle{
+  font-family: "Roboto", sans-serif;
   text-align: center;
   margin-bottom: 8px;
-}
-.c-ul-li-paragraph{
-  text-align: center;
   color: #434455;
   margin-bottom: 8px;
+  font-weight:500;
+  font-size:20px;
+  line-height:1.2;
+  letter-spacing:0.02em;
+}
+.c-ul-li-paragraph{
+  font-family: "Roboto", sans-serif;
+  line-height:1.5;
+  letter-spacing:0.02em;
+  color:#434455;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 /* четвертая жоска секция D */
 .body-d-section{
-padding: 120px 0;
+  padding: 120px 0;
 }
 .body-d-section-div-container{
 
 }
 .d-section-div-container-our-team{
-margin-bottom: 72px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .d-section-div-container-ul{
   display: flex;
   gap: 24px;
 }
-.our-team{
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  
-}
 .d-ul-li{
-  padding: 32px 0;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+
+  margin-bottom: 8px;
+  padding:32px 16px;
+   
+  column-gap: 24px;
+  row-gap: 48px;
+  text-align:center;
 }
 .image-d{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    
 }
 .names{
  font-weight: 500;
@@ -184,14 +210,21 @@ margin-bottom: 72px;
 
 /* пятая E */
 .body-e-section{
-padding-top: 120px;
-padding-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .body-e-section-div-container{
 
 }
 .e-section-div-our-portfolio{
+  font-family: "Roboto", sans-serif;
   margin-bottom: 72px;
+  text-align:center;
+  font-size:36px;
+  line-height:1.11;
+  letter-spacing:0.02em;
+  text-transform:capitalize;
+  color:#2e2f42;
 }
 .e-div-ul{
   display: flex;
@@ -212,6 +245,7 @@ margin-bottom: 8px;
 }
 .e-ul-li-h-list-portfolio{
 margin-bottom: 8px;
+padding:32px 16px;
 }
 .e-ul-li-paragraph{
 
@@ -235,30 +269,3 @@ margin-bottom: 8px;
     
     }
 
-
-
-
-
-
-
-
-
-
-
-body{
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFFFFF;
-}
-header{
-  border-bottom: 1px solid #e7e9fc
-
-}
-.nav-main{
-  display: flex;         /* логотип + меню в ряд */
-  align-items: center;   /* по центру */
-}
-
-.a{
-  font-family: "Raleway", sans-serif;
-}
