@@ -111,17 +111,17 @@ padding: 120px 0;
 .body-c-section-div-container{
   
 }
-.hide-hide{
+.visually-hidden{
 margin-bottom: 72px;
 text-align: center;
 }
 .c-section-div-ul{
-  display: flex;
-  gap: 24px;
+display: flex;
+gap: 24px;
 }
 .c-div-ul-li{
-  width: calc((100% - 72px) / 4);
-
+width: calc((100% - 72px) / 4);
+margin-bottom: 8px;
 }
 .c-ul-li-container{
 padding: 32px 0;
