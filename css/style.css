@@ -37,6 +37,8 @@ a  {
 /* голова и в нем супєр лого A*/
 .web-text{
   font-family: "Raleway", sans-serif;
+  display: inline-block;
+  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -118,7 +120,8 @@ text-align: center;
   gap: 24px;
 }
 .c-div-ul-li{
-  
+  width: calc((100% - 72px) / 4);
+
 }
 .c-ul-li-container{
 padding: 32px 0;
@@ -130,6 +133,7 @@ padding: 32px 0;
 .c-ul-li-paragraph{
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
@@ -195,8 +199,11 @@ padding-bottom: 120px;
   column-gap: 24px;
   row-gap: 48px;
 }
+.e-ul-li{
+width: calc((100% - 48px) / 3);
+}
 .e-ul-li-img{
-  width: calc((100% - 48px) / 3);
+  
 }
 .e-ul-li-img-container{
 padding: 32px 16px;
@@ -205,10 +212,29 @@ border-top: none;
 margin-bottom: 8px;
 }
 .e-ul-li-h-list-portfolio{
+margin-bottom: 8px;
+}
+.e-ul-li-paragraph{
 
 }
 /* F */
-
+    .footer{
+      background-color:#2e2f42;
+      height: 312px; 
+      padding: 100px 0
+      
+     }
+    .web-accent-w{
+      color: #f4f4fd;
+    
+      
+    }
+    .p-in-footer{
+      line-height: 1.5;
+      color:  #F4F4FD;
+      letter-spacing: 0.02em;
+    
+    }
 
 
 
@@ -427,22 +453,3 @@ height: 732px;*/
 
     /*ФУУУтерок*/
 
-    /*.container-foot{}*/
-
-    .footer{
-      background-color:#2e2f42;
-      height: 312px; 
-      padding: 100px 0
-      
-     }
-    .web-accent-w{
-      color: #f4f4fd;
-    
-      
-    }
-    .p-in-footer{
-      line-height: 1.5;
-      color:  #F4F4FD;
-      letter-spacing: 0.02em;
-    
-    }
