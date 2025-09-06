@@ -1,9 +1,6 @@
 h1,
 h2,
-h3,
 h4,
-h5,
-h6,
 p,
 ul,
 a  {
@@ -12,6 +9,7 @@ a  {
   list-style:none;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
+  color: #2e2f42
 }
 img {
   display: block;
@@ -130,19 +128,6 @@ nav {
 .body-c-section{
   padding: 120px 0;
 }
-.visually-hidden {
-  margin-bottom: 8px;
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .body-c-section-div-container{
   
 }
@@ -174,13 +159,12 @@ nav {
 .c-li-tittle{
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-bottom: 8px;
-  color: #434455;
+  margin-bottom:8px;
   font-weight:500;
   font-size:20px;
   line-height:1.2;
   letter-spacing:0.02em;
-  margin-bottom:8px;
+  color:#2e2f42;
 }
 .c-ul-li-paragraph{
   font-family: "Roboto", sans-serif;
