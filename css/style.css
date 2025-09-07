@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 h4,
 p,
 ul,
@@ -8,7 +9,6 @@ a  {
   padding: 0;
   list-style:none;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
   color: #2e2f42
 }
 img {
@@ -51,7 +51,6 @@ nav {
   display: flex;
   font-family: "Raleway", sans-serif;
   display: inline-block;
-  margin-bottom: 16px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -101,6 +100,7 @@ nav {
   font-size:56px;
   line-height:1.07;
   letter-spacing:0.02em;
+  color: #ffffff;
 }
 .main-section-div-button{
   font-family: "Roboto", sans-serif;
